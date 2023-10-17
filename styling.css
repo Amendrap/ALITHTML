@@ -1,0 +1,90 @@
+button {
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: transparent;
+  font-size: 36px;
+  font-style: italic;
+  height: 75px;
+}
+
+a[href="https://google.com/"] {
+  color: black;
+}
+
+a[href="https://amazon.com"] {
+  color: slategrey;
+}
+
+@media (min-width: 1080px) {
+  body {
+    background-color: green;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    background-color: azure;
+  }
+}
+table {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  background-color: blueviolet;
+}
+
+td {
+  border: 2px solid blue;
+  padding: 2px;
+}
+
+th {
+  text-align: center;
+  font-size: 24px;
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#box > div {
+  font-size: 24px;
+  width: 50px;
+  height: 30px;
+  background-color: yellow;
+  margin: 20px;
+  text-align: center;
+}
+
+.row > div {
+  padding: 20px;
+  background-color: teal;
+  border: 2px solid black;
+}
+
+#inputs > form {
+  font-size: 24px;
+}
+
+.grid {
+  background-color: green;
+  display: grid;
+  padding: 20px;
+  text-align: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}/*# sourceMappingURL=styling.css.map */
